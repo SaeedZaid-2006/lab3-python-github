@@ -43,6 +43,7 @@ def show_menu():
     print("7. Exit")
 
 def main():
+    print("Welcome to the Improved Python Calculator!")
     while True:
         show_menu()
         choice = input("Choose an option (1-7): ")
